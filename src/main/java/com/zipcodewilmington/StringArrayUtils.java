@@ -92,16 +92,16 @@ public class StringArrayUtils {
      * @return true if each letter in the alphabet has been used in the array
      */ // TODO
     public static boolean isPangramic(String[] array) { return false;}
-////        char [] value = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-////        boolean[] count = new boolean[26];
-////        for (int i = 0 ; i < 26 ; i++) {
-////            for (int j = 0; j < array.length; j++) {
-////                if (value[i] == ch[j])
-////                    return true;
-////            }
-////        }
-////        return null;
-//
+        char [] value = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+        boolean[] count = new boolean[26];
+        for (int i = 0 ; i < 26 ; i++) {
+            for (int j = 0; j < array.length; j++) {
+                if (value[i] == ch[j])
+                    return true;
+            }
+        }
+        return null;
+
 //
 //
 //
